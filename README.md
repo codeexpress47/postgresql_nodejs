@@ -7,5 +7,4 @@ https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html
 // ============================
 // git add --all
 // git commit -am 'v1.0'
-// git push origin master
 // git push -u origin main

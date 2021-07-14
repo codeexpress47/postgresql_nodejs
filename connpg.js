@@ -1,7 +1,7 @@
 const e = require("express");
 const { Pool } = require("pg");
 
-var db_pgnodejs = new Pool({
+const db_pgnodejs = new Pool({
   host: "localhost",
   database: "pgnodejs",
   user: "postgres",

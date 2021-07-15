@@ -2,7 +2,7 @@ const e = require("express");
 const { Pool } = require("pg");
 
 const db_pgnodejs = new Pool({
-  host: "localhost",
+  host: "host.docker.internal", //ถ้าไม่ได้ใช้ docker run postgres เปลี่่ยนเป็น localhost หรือ ip 
   database: "pgnodejs",
   user: "postgres",
   password: "pass123",
